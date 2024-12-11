@@ -1,18 +1,12 @@
-import Button from 'react-bootstrap/Button';
+import React from 'react'
 
-function TypesExample() {
+const Button = (props) => {
   return (
-    <div>
-      <Button variant="primary">Primary</Button>{' '}
-      <Button variant="secondary">Secondary</Button>{' '}
-      <Button variant="success">Success</Button>{' '}
-      <Button variant="warning">Warning</Button>{' '}
-      <Button variant="danger">Danger</Button>{' '}
-      <Button variant="info">Info</Button>{' '}
-      <Button variant="light">Light</Button>{' '}
-      <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
-    </div>
-  );
+    <button className='bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 
+    duration-500'>
+      {props.children}
+    </button>
+  )
 }
 
-export default TypesExample;
+export default Button
