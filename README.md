@@ -42,7 +42,7 @@ An integrated platform for managing academic processes, including student regist
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/academia-management.git
+   git clone https://github.com/ethic-bakeery/academia-management.git
    cd academia-management
    ```
 
